@@ -2725,3 +2725,7 @@ Properties:
 `string propertyName`
 `string pseudoElement`
 `float elapsedTime`
+
+
+### State
+State is available only in class based components.
