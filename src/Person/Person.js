@@ -1,4 +1,6 @@
 import React from 'react'
+import './App.css'
+
 
 class App extends Component {
     state = {
@@ -14,7 +16,7 @@ class App extends Component {
             <div className="App">
                 <h1>Anablock</h1>
                 <p>Salesforce Implementation Partner</p>
-                <button>Switch Name</button>
+                <button onClick={}>Switch Name</button>
                 <Person name={this.state.persons[0].name} age={this.state.persons[0].age} />
             </div>
         )
